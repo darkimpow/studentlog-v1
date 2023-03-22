@@ -12,6 +12,9 @@ const Student = () => {
         e.preventDefault();
     {/* here we will console log the students name & addresses*/}
 
+        console.log(nameRef.current.value);
+        console.log(addressRef.current.value);
+        console.log(emailRef.current.value)
 
     return (
         <div>
