@@ -1,4 +1,5 @@
 import School from "./pages/School";
+import Student from "./pages/Student";
 
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <div>
       <h1 className='bg-orange-400'>Hello</h1>
         <School/>
+        <hr/>
+        <Student/>
     </div>
   );
 }
